@@ -1,0 +1,11 @@
+v = input('Digite algo:\n')
+
+print(f'\nO tipo primitivo: {type(v)}')
+print(f'É alfabétivo: {v.isalpha()}')
+print(f'É numérico: {v.isnumeric()}')
+print(f'É alfanumérico: {v.isalnum()}')
+print(f'Está tudo em maiusculo: {v.isupper()}')
+print(f'Está tudo em minusculo: {v.islower()}')
+print(f'É espaço: {v.isspace()}')
+print(f'É decimal: {v.isdecimal()}')
+print(f'Esta capitalizado: {v.istitle()}')
